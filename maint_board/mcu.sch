@@ -388,8 +388,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 3350 7000 3350
 Wire Wire Line
-	7000 3450 7200 3450
-Wire Wire Line
 	7900 3750 8000 3750
 Wire Wire Line
 	7900 3750 7900 3850
@@ -529,8 +527,6 @@ Text HLabel 7200 3250 2    50   Input ~ 0
 Row3
 Text HLabel 7200 3350 2    50   Input ~ 0
 Row4
-Text HLabel 7200 3450 2    50   Input ~ 0
-Row5
 Text HLabel 7200 4450 2    50   Input ~ 0
 Col1
 Text HLabel 7200 4350 2    50   Input ~ 0
@@ -543,8 +539,6 @@ Text HLabel 7200 4150 2    50   Input ~ 0
 Col5
 Text HLabel 7200 3950 2    50   Input ~ 0
 Col6
-Text HLabel 7200 3550 2    50   Input ~ 0
-Col7
 Text HLabel 1250 2950 0    50   Input ~ 0
 usb_D-
 Text HLabel 1250 3050 0    50   Input ~ 0
@@ -806,9 +800,11 @@ Connection ~ 3850 4550
 Wire Wire Line
 	3850 4550 4850 4550
 $Comp
-L keyboard_parts:ATMEGA32U4 U1
+L maint_board-rescue:ATMEGA32U4-keyboard_parts U1
 U 1 1 601CBA26
 P 5900 3800
+AR Path="/601CBA26" Ref="U1"  Part="1" 
+AR Path="/6012B71A/601CBA26" Ref="U1"  Part="1" 
 F 0 "U1" H 5925 5137 60  0000 C CNN
 F 1 "ATMEGA32U4" H 5925 5031 60  0000 C CNN
 F 2 "keyboard_parts:QFP44" H 5900 3800 60  0001 C CNN
@@ -817,7 +813,7 @@ F 3 "" H 5900 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:XTAL_GND X1
+L maint_board-rescue:XTAL_GND-keyboard_parts X1
 U 1 1 6022D139
 P 1650 4350
 F 0 "X1" H 1650 4642 60  0000 C CNN
@@ -828,7 +824,7 @@ F 3 "" H 1650 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW1
+L maint_board-rescue:SW_PUSH-keyboard_parts SW1
 U 1 1 6023273D
 P 2550 3950
 F 0 "SW1" H 2550 4205 50  0000 C CNN
@@ -846,8 +842,6 @@ Wire Wire Line
 	7200 4350 7000 4350
 Wire Wire Line
 	7200 4450 7000 4450
-Wire Wire Line
-	7200 3550 7000 3550
 Wire Wire Line
 	7200 4150 7000 4150
 Wire Wire Line

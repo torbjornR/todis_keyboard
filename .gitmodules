@@ -1,3 +1,9 @@
 [submodule "libs/kicad_libs"]
 	path = libs/kicad_libs
 	url = git@github.com:torbjornR/kicad_libs.git
+[submodule "libs/kicad_lib_tmk"]
+	path = libs/kicad_lib_tmk
+	url = git@github.com:tmk/kicad_lib_tmk.git
+[submodule "libs/keyboard_parts.pretty"]
+	path = libs/keyboard_parts.pretty
+	url = git@github.com:tmk/keyboard_parts.pretty.git

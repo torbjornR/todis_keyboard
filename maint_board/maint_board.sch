@@ -22,14 +22,12 @@ F2 "Row1" O L 6050 2750 50
 F3 "Row2" O L 6050 2850 50 
 F4 "Row3" O L 6050 2950 50 
 F5 "Row4" O L 6050 3050 50 
-F6 "Row5" O L 6050 3150 50 
 F7 "Col1" O L 6050 3550 50 
 F8 "Col2" O L 6050 3650 50 
 F9 "Col3" O L 6050 3750 50 
 F10 "Col4" O L 6050 3850 50 
 F11 "Col5" O L 6050 3950 50 
 F12 "Col6" O L 6050 4050 50 
-F13 "Col7" O L 6050 4150 50 
 $EndSheet
 $Comp
 L power:GND #PWR013
@@ -51,14 +49,12 @@ F2 "Row1" I R 5700 2750 50
 F3 "Row2" I R 5700 2850 50 
 F4 "Row3" I R 5700 2950 50 
 F5 "Row4" I R 5700 3050 50 
-F6 "Row5" I R 5700 3150 50 
 F7 "Col1" I R 5700 3550 50 
 F8 "Col2" I R 5700 3650 50 
 F9 "Col3" I R 5700 3750 50 
 F10 "Col4" I R 5700 3850 50 
 F11 "Col5" I R 5700 3950 50 
 F12 "Col6" I R 5700 4050 50 
-F13 "Col7" I R 5700 4150 50 
 F14 "usb_D-" I L 4400 3050 50 
 F15 "usb_D+" I L 4400 3150 50 
 F16 "Vcc" I L 4400 2650 50 
@@ -101,8 +97,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 3050 6050 3050
 Wire Wire Line
-	6050 3150 5700 3150
-Wire Wire Line
 	5700 3550 6050 3550
 Wire Wire Line
 	6050 3650 5700 3650
@@ -114,8 +108,6 @@ Wire Wire Line
 	5700 3950 6050 3950
 Wire Wire Line
 	6050 4050 5700 4050
-Wire Wire Line
-	5700 4150 6050 4150
 $Sheet
 S 6050 4700 1300 750 
 U 601EDEE5
@@ -237,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5000 6050 5000
 $Comp
-L keyboard_parts:USB_mini_micro_B J1
+L maint_board-rescue:USB_mini_micro_B-keyboard_parts J1
 U 1 1 601E1AA5
 P 3150 3100
 F 0 "J1" H 3037 3391 60  0000 C CNN
