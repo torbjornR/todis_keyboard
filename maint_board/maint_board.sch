@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
-Rev ""
+Title "todis_keyboard"
+Date "2021-04-05"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
