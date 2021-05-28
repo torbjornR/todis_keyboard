@@ -626,7 +626,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 4250 4850 4250
 Wire Wire Line
-	4850 3950 3000 3950
+	4850 3950 3800 3950
 Wire Wire Line
 	3550 5200 4050 5200
 Wire Wire Line
@@ -736,10 +736,8 @@ Text GLabel 4600 3750 0    50   Input ~ 0
 miso_prog
 Text GLabel 4600 3550 0    50   Input ~ 0
 sck_prog
-Text GLabel 4600 3850 0    50   Input ~ 0
+Text GLabel 3800 3800 1    50   Input ~ 0
 rst_prog
-Wire Wire Line
-	4850 3850 4600 3850
 Wire Wire Line
 	4600 3750 4850 3750
 Wire Wire Line
@@ -1078,4 +1076,9 @@ F 3 "~" H 8900 3450 50  0001 C CNN
 	1    8900 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 3800 3800 3950
+Connection ~ 3800 3950
+Wire Wire Line
+	3800 3950 3000 3950
 $EndSCHEMATC

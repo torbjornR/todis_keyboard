@@ -1,0 +1,15 @@
+I want to set the fuses
+
+fuseH sett bit 6 to 1 to decable jtag
+fuseL maby remove clk devider?
+
+program fuses avrdude
+
+avrdude -c avrispmkII -p atmega32u4 -B 3 -U hfuse:r
+
+avrdude -c avrispmkII -p atmega32u4 -B 3 -U flash:w:blink.hex
+
+
+memtype:op:filename:format
+
+-U hfuse:r:-:i
