@@ -798,7 +798,7 @@ Connection ~ 3850 4550
 Wire Wire Line
 	3850 4550 4850 4550
 $Comp
-L maint_board-rescue:ATMEGA32U4-keyboard_parts U1
+L maint_board-rescue:ATMEGA32U4-keyboard_parts-maint_board-rescue U1
 U 1 1 601CBA26
 P 5900 3800
 AR Path="/601CBA26" Ref="U1"  Part="1" 
@@ -811,7 +811,7 @@ F 3 "" H 5900 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:XTAL_GND-keyboard_parts X1
+L maint_board-rescue:XTAL_GND-keyboard_parts-maint_board-rescue X1
 U 1 1 6022D139
 P 1650 4350
 F 0 "X1" H 1650 4642 60  0000 C CNN
@@ -822,7 +822,7 @@ F 3 "" H 1650 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:SW_PUSH-keyboard_parts SW1
+L maint_board-rescue:SW_PUSH-keyboard_parts-maint_board-rescue SW1
 U 1 1 6023273D
 P 2550 3950
 F 0 "SW1" H 2550 4205 50  0000 C CNN

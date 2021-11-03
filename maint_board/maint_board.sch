@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5000 6050 5000
 $Comp
-L maint_board-rescue:USB_mini_micro_B-keyboard_parts J1
+L maint_board-rescue:USB_mini_micro_B-keyboard_parts-maint_board-rescue J1
 U 1 1 601E1AA5
 P 3150 3100
 F 0 "J1" H 3037 3391 60  0000 C CNN

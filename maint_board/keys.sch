@@ -475,232 +475,232 @@ Col5
 Text HLabel 12200 1900 1    50   Input ~ 0
 Col6
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K1
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K1
 U 1 1 601EF1A8
 P 3500 2450
 F 0 "K1" H 3500 2683 60  0000 C CNN
 F 1 "KEYSW" H 3500 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 3500 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 3500 2450 60  0001 C CNN
 F 3 "" H 3500 2450 60  0000 C CNN
 	1    3500 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K2
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K2
 U 1 1 601EF6C3
 P 5100 2450
 F 0 "K2" H 5100 2683 60  0000 C CNN
 F 1 "KEYSW" H 5100 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 5100 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 5100 2450 60  0001 C CNN
 F 3 "" H 5100 2450 60  0000 C CNN
 	1    5100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K3
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K3
 U 1 1 601F0741
 P 6700 2450
 F 0 "K3" H 6700 2683 60  0000 C CNN
 F 1 "KEYSW" H 6700 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 6700 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 6700 2450 60  0001 C CNN
 F 3 "" H 6700 2450 60  0000 C CNN
 	1    6700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K4
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K4
 U 1 1 601F0A5A
 P 8500 2450
 F 0 "K4" H 8500 2683 60  0000 C CNN
 F 1 "KEYSW" H 8500 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 8500 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 8500 2450 60  0001 C CNN
 F 3 "" H 8500 2450 60  0000 C CNN
 	1    8500 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K5
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K5
 U 1 1 601F1414
 P 10000 2450
 F 0 "K5" H 10000 2683 60  0000 C CNN
 F 1 "KEYSW" H 10000 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 10000 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 10000 2450 60  0001 C CNN
 F 3 "" H 10000 2450 60  0000 C CNN
 	1    10000 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K6
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K6
 U 1 1 601F1D1C
 P 11600 2450
 F 0 "K6" H 11600 2683 60  0000 C CNN
 F 1 "KEYSW" H 11600 2350 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 11600 2450 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 11600 2450 60  0001 C CNN
 F 3 "" H 11600 2450 60  0000 C CNN
 	1    11600 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K8
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K8
 U 1 1 60209B92
 P 3450 3750
 F 0 "K8" H 3450 3983 60  0000 C CNN
 F 1 "KEYSW" H 3450 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 3450 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 3450 3750 60  0001 C CNN
 F 3 "" H 3450 3750 60  0000 C CNN
 	1    3450 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K9
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K9
 U 1 1 6020AA53
 P 5050 3750
 F 0 "K9" H 5050 3983 60  0000 C CNN
 F 1 "KEYSW" H 5050 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 5050 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 5050 3750 60  0001 C CNN
 F 3 "" H 5050 3750 60  0000 C CNN
 	1    5050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K10
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K10
 U 1 1 6020AF79
 P 6650 3750
 F 0 "K10" H 6650 3983 60  0000 C CNN
 F 1 "KEYSW" H 6650 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 6650 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 6650 3750 60  0001 C CNN
 F 3 "" H 6650 3750 60  0000 C CNN
 	1    6650 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K11
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K11
 U 1 1 6020C34D
 P 8450 3750
 F 0 "K11" H 8450 3983 60  0000 C CNN
 F 1 "KEYSW" H 8450 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 8450 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 8450 3750 60  0001 C CNN
 F 3 "" H 8450 3750 60  0000 C CNN
 	1    8450 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K12
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K12
 U 1 1 6020C7BD
 P 9950 3750
 F 0 "K12" H 9950 3983 60  0000 C CNN
 F 1 "KEYSW" H 9950 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 9950 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 9950 3750 60  0001 C CNN
 F 3 "" H 9950 3750 60  0000 C CNN
 	1    9950 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K13
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K13
 U 1 1 6020D492
 P 11550 3750
 F 0 "K13" H 11550 3983 60  0000 C CNN
 F 1 "KEYSW" H 11550 3650 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 11550 3750 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 11550 3750 60  0001 C CNN
 F 3 "" H 11550 3750 60  0000 C CNN
 	1    11550 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K15
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K15
 U 1 1 602104B4
 P 3450 5050
 F 0 "K15" H 3450 5283 60  0000 C CNN
 F 1 "KEYSW" H 3450 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 3450 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 3450 5050 60  0001 C CNN
 F 3 "" H 3450 5050 60  0000 C CNN
 	1    3450 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K16
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K16
 U 1 1 60211B53
 P 5050 5050
 F 0 "K16" H 5050 5283 60  0000 C CNN
 F 1 "KEYSW" H 5050 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 5050 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 5050 5050 60  0001 C CNN
 F 3 "" H 5050 5050 60  0000 C CNN
 	1    5050 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K17
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K17
 U 1 1 6021289C
 P 6650 5050
 F 0 "K17" H 6650 5283 60  0000 C CNN
 F 1 "KEYSW" H 6650 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 6650 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 6650 5050 60  0001 C CNN
 F 3 "" H 6650 5050 60  0000 C CNN
 	1    6650 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K18
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K18
 U 1 1 60212DB8
 P 8450 5050
 F 0 "K18" H 8450 5283 60  0000 C CNN
 F 1 "KEYSW" H 8450 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 8450 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 8450 5050 60  0001 C CNN
 F 3 "" H 8450 5050 60  0000 C CNN
 	1    8450 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K19
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K19
 U 1 1 60213BD4
 P 9950 5050
 F 0 "K19" H 9950 5283 60  0000 C CNN
 F 1 "KEYSW" H 9950 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 9950 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 9950 5050 60  0001 C CNN
 F 3 "" H 9950 5050 60  0000 C CNN
 	1    9950 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K20
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K20
 U 1 1 60214B46
 P 11550 5050
 F 0 "K20" H 11550 5283 60  0000 C CNN
 F 1 "KEYSW" H 11550 4950 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 11550 5050 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 11550 5050 60  0001 C CNN
 F 3 "" H 11550 5050 60  0000 C CNN
 	1    11550 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K29
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K29
 U 1 1 60218831
 P 8400 6200
 F 0 "K29" H 8400 6433 60  0000 C CNN
 F 1 "KEYSW" H 8400 6100 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 8400 6200 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 8400 6200 60  0001 C CNN
 F 3 "" H 8400 6200 60  0000 C CNN
 	1    8400 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K30
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K30
 U 1 1 6021840D
 P 9900 6200
 F 0 "K30" H 9900 6433 60  0000 C CNN
 F 1 "KEYSW" H 9900 6100 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 9900 6200 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 9900 6200 60  0001 C CNN
 F 3 "" H 9900 6200 60  0000 C CNN
 	1    9900 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L maint_board-rescue:KEYSW-keyboard_parts K31
+L maint_board-rescue:KEYSW-keyboard_parts-maint_board-rescue K31
 U 1 1 60217EA0
 P 11500 6200
 F 0 "K31" H 11500 6433 60  0000 C CNN
 F 1 "KEYSW" H 11500 6100 60  0001 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 11500 6200 60  0001 C CNN
+F 2 "switches:SW_MX_reversible" H 11500 6200 60  0001 C CNN
 F 3 "" H 11500 6200 60  0000 C CNN
 	1    11500 6200
 	1    0    0    -1  
