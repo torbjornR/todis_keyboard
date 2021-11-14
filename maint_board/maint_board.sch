@@ -227,7 +227,7 @@ U 1 1 601E1AA5
 P 3150 3100
 F 0 "J1" H 3037 3391 60  0000 C CNN
 F 1 "USB_mini_micro_B" H 3000 3350 60  0001 C CNN
-F 2 "my_connectors:usb_minib_wm5462ct-nd" H 3100 3100 60  0001 C CNN
+F 2 "TB_connectors:usb_minib_wm5462ct-nd" H 3100 3100 60  0001 C CNN
 F 3 "" H 3100 3100 60  0000 C CNN
 	1    3150 3100
 	1    0    0    1   

@@ -46,31 +46,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5900 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED:SK6812 D40
-U 1 1 6020EB98
-P 7200 5300
-F 0 "D40" H 7544 5346 50  0000 L CNN
-F 1 "SK6812" H 7544 5255 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7250 5000 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7300 4925 50  0001 L TNN
-	1    7200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812 D42
-U 1 1 6020ECE2
-P 8400 5300
-F 0 "D42" H 8744 5346 50  0000 L CNN
-F 1 "SK6812" H 8744 5255 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8450 5000 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8500 4925 50  0001 L TNN
-	1    8400 5300
-	1    0    0    -1  
-$EndComp
-Text Notes 6900 1350 2    197  ~ 39
-Right Hand 
-Text Notes 6650 6450 2    197  ~ 39
+Text Notes 5250 6550 2    197  ~ 39
 Left Hand
 Text HLabel 1500 1450 0    50   Input ~ 0
 Vcc
@@ -116,10 +92,6 @@ Wire Wire Line
 	3650 5300 4300 5300
 Wire Wire Line
 	4900 5300 5600 5300
-Wire Wire Line
-	7500 5300 8100 5300
-Wire Wire Line
-	6200 5300 6900 5300
 Text HLabel 1400 3900 0    50   Input ~ 0
 Din
 Wire Wire Line
@@ -161,20 +133,6 @@ F 3 "" H 4600 4550 50  0001 C CNN
 $EndComp
 $Comp
 L power:VCC #PWR?
-U 1 1 602548C0
-P 7200 4550
-AR Path="/602548C0" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602548C0" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602548C0" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 7200 4400 50  0001 C CNN
-F 1 "VCC" H 7217 4723 50  0000 C CNN
-F 2 "" H 7200 4550 50  0001 C CNN
-F 3 "" H 7200 4550 50  0001 C CNN
-	1    7200 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
 U 1 1 602548C6
 P 5900 4550
 AR Path="/602548C6" Ref="#PWR?"  Part="1" 
@@ -185,20 +143,6 @@ F 1 "VCC" H 5917 4723 50  0000 C CNN
 F 2 "" H 5900 4550 50  0001 C CNN
 F 3 "" H 5900 4550 50  0001 C CNN
 	1    5900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 602548CC
-P 8400 4550
-AR Path="/602548CC" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602548CC" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602548CC" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 8400 4400 50  0001 C CNN
-F 1 "VCC" H 8417 4723 50  0000 C CNN
-F 2 "" H 8400 4550 50  0001 C CNN
-F 3 "" H 8400 4550 50  0001 C CNN
-	1    8400 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -243,38 +187,6 @@ F 3 "" H 5900 5800 50  0001 C CNN
 	1    5900 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6025FFAE
-P 7200 5800
-AR Path="/6025FFAE" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/6025FFAE" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/6025FFAE" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 7200 5550 50  0001 C CNN
-F 1 "GND" H 7205 5627 50  0000 C CNN
-F 2 "" H 7200 5800 50  0001 C CNN
-F 3 "" H 7200 5800 50  0001 C CNN
-	1    7200 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6025FFB4
-P 8400 5800
-AR Path="/6025FFB4" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/6025FFB4" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/6025FFB4" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 8400 5550 50  0001 C CNN
-F 1 "GND" H 8405 5627 50  0000 C CNN
-F 2 "" H 8400 5800 50  0001 C CNN
-F 3 "" H 8400 5800 50  0001 C CNN
-	1    8400 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 5800 8400 5700
-Wire Wire Line
-	7200 5600 7200 5700
 Wire Wire Line
 	5900 5600 5900 5700
 Wire Wire Line
@@ -314,42 +226,6 @@ F 3 "~" H 5450 4900 50  0001 C CNN
 	1    5450 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C16
-U 1 1 60268DBA
-P 6800 4900
-F 0 "C16" H 6915 4946 50  0000 L CNN
-F 1 "100nF" H 6915 4855 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 6838 4750 50  0001 C CNN
-F 3 "~" H 6800 4900 50  0001 C CNN
-	1    6800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 60269BA5
-P 8000 4900
-F 0 "C18" H 8115 4946 50  0000 L CNN
-F 1 "100nF" H 8115 4855 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 8038 4750 50  0001 C CNN
-F 3 "~" H 8000 4900 50  0001 C CNN
-	1    8000 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 5700 8400 5700
-Wire Wire Line
-	8000 5050 8000 5700
-Connection ~ 8400 5700
-Wire Wire Line
-	8400 5700 8400 5600
-Wire Wire Line
-	6800 5050 6800 5700
-Wire Wire Line
-	6800 5700 7200 5700
-Connection ~ 7200 5700
-Wire Wire Line
-	7200 5700 7200 5800
 Wire Wire Line
 	5450 5050 5450 5700
 Wire Wire Line
@@ -378,10 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 5000 5900 4650
 Wire Wire Line
-	7200 5000 7200 4650
-Wire Wire Line
-	8400 5000 8400 4650
-Wire Wire Line
 	2900 4750 2900 4650
 Wire Wire Line
 	2900 4650 3350 4650
@@ -402,20 +274,6 @@ Wire Wire Line
 Connection ~ 5900 4650
 Wire Wire Line
 	5900 4650 5900 4550
-Wire Wire Line
-	6800 4750 6800 4650
-Wire Wire Line
-	6800 4650 7200 4650
-Connection ~ 7200 4650
-Wire Wire Line
-	7200 4650 7200 4550
-Wire Wire Line
-	8000 4750 8000 4650
-Wire Wire Line
-	8000 4650 8400 4650
-Connection ~ 8400 4650
-Wire Wire Line
-	8400 4650 8400 4550
 $Comp
 L LED:SK6812 D33
 U 1 1 602A2268
@@ -449,36 +307,10 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5900 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED:SK6812 D39
-U 1 1 602A227A
-P 7200 2500
-F 0 "D39" H 7544 2546 50  0000 L CNN
-F 1 "SK6812" H 7544 2455 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 7250 2200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7300 2125 50  0001 L TNN
-	1    7200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812 D41
-U 1 1 602A2280
-P 8400 2500
-F 0 "D41" H 8744 2546 50  0000 L CNN
-F 1 "SK6812" H 8744 2455 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm" H 8450 2200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 8500 2125 50  0001 L TNN
-	1    8400 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 2500 4300 2500
 Wire Wire Line
 	4900 2500 5600 2500
-Wire Wire Line
-	7500 2500 8100 2500
-Wire Wire Line
-	6200 2500 6900 2500
 Wire Wire Line
 	3050 2500 2500 2500
 $Comp
@@ -511,20 +343,6 @@ F 3 "" H 4600 1750 50  0001 C CNN
 $EndComp
 $Comp
 L power:VCC #PWR?
-U 1 1 602A2298
-P 7200 1750
-AR Path="/602A2298" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602A2298" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602A2298" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 7200 1600 50  0001 C CNN
-F 1 "VCC" H 7217 1923 50  0000 C CNN
-F 2 "" H 7200 1750 50  0001 C CNN
-F 3 "" H 7200 1750 50  0001 C CNN
-	1    7200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
 U 1 1 602A229E
 P 5900 1750
 AR Path="/602A229E" Ref="#PWR?"  Part="1" 
@@ -535,20 +353,6 @@ F 1 "VCC" H 5917 1923 50  0000 C CNN
 F 2 "" H 5900 1750 50  0001 C CNN
 F 3 "" H 5900 1750 50  0001 C CNN
 	1    5900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 602A22A4
-P 8400 1750
-AR Path="/602A22A4" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602A22A4" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602A22A4" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 8400 1600 50  0001 C CNN
-F 1 "VCC" H 8417 1923 50  0000 C CNN
-F 2 "" H 8400 1750 50  0001 C CNN
-F 3 "" H 8400 1750 50  0001 C CNN
-	1    8400 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -593,38 +397,6 @@ F 3 "" H 5900 3000 50  0001 C CNN
 	1    5900 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 602A22BC
-P 7200 3000
-AR Path="/602A22BC" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602A22BC" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602A22BC" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 7200 2750 50  0001 C CNN
-F 1 "GND" H 7205 2827 50  0000 C CNN
-F 2 "" H 7200 3000 50  0001 C CNN
-F 3 "" H 7200 3000 50  0001 C CNN
-	1    7200 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 602A22C2
-P 8400 3000
-AR Path="/602A22C2" Ref="#PWR?"  Part="1" 
-AR Path="/6012B71A/602A22C2" Ref="#PWR?"  Part="1" 
-AR Path="/601EDEE5/602A22C2" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 8400 2750 50  0001 C CNN
-F 1 "GND" H 8405 2827 50  0000 C CNN
-F 2 "" H 8400 3000 50  0001 C CNN
-F 3 "" H 8400 3000 50  0001 C CNN
-	1    8400 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 3000 8400 2900
-Wire Wire Line
-	7200 2800 7200 2900
 Wire Wire Line
 	5900 2800 5900 2900
 Wire Wire Line
@@ -664,42 +436,6 @@ F 3 "~" H 5450 2100 50  0001 C CNN
 	1    5450 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C15
-U 1 1 602A22DF
-P 6800 2100
-F 0 "C15" H 6915 2146 50  0000 L CNN
-F 1 "100nF" H 6915 2055 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 6838 1950 50  0001 C CNN
-F 3 "~" H 6800 2100 50  0001 C CNN
-	1    6800 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 602A22E5
-P 8000 2100
-F 0 "C17" H 8115 2146 50  0000 L CNN
-F 1 "100nF" H 8115 2055 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 8038 1950 50  0001 C CNN
-F 3 "~" H 8000 2100 50  0001 C CNN
-	1    8000 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 2900 8400 2900
-Wire Wire Line
-	8000 2250 8000 2900
-Connection ~ 8400 2900
-Wire Wire Line
-	8400 2900 8400 2800
-Wire Wire Line
-	6800 2250 6800 2900
-Wire Wire Line
-	6800 2900 7200 2900
-Connection ~ 7200 2900
-Wire Wire Line
-	7200 2900 7200 3000
 Wire Wire Line
 	5450 2250 5450 2900
 Wire Wire Line
@@ -728,10 +464,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2200 5900 1850
 Wire Wire Line
-	7200 2200 7200 1850
-Wire Wire Line
-	8400 2200 8400 1850
-Wire Wire Line
 	2900 1950 2900 1850
 Wire Wire Line
 	2900 1850 3350 1850
@@ -752,18 +484,6 @@ Wire Wire Line
 Connection ~ 5900 1850
 Wire Wire Line
 	5900 1850 5900 1750
-Wire Wire Line
-	6800 1950 6800 1850
-Wire Wire Line
-	6800 1850 7200 1850
-Connection ~ 7200 1850
-Wire Wire Line
-	7200 1850 7200 1750
-Wire Wire Line
-	8000 1950 8000 1850
-Wire Wire Line
-	8000 1850 8400 1850
-Connection ~ 8400 1850
-Wire Wire Line
-	8400 1850 8400 1750
+Text Notes 5700 1100 2    197  ~ 39
+Right Hand 
 $EndSCHEMATC
