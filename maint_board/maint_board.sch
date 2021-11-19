@@ -40,29 +40,6 @@ F 3 "" H 3000 2250 50  0001 C CNN
 	1    3000 2250
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4400 2450 1300 3000
-U 6012B71A
-F0 "mcu" 50
-F1 "mcu.sch" 50
-F2 "Row1" I R 5700 2750 50 
-F3 "Row2" I R 5700 2850 50 
-F4 "Row3" I R 5700 2950 50 
-F5 "Row4" I R 5700 3050 50 
-F6 "Col1" I R 5700 3550 50 
-F7 "Col2" I R 5700 3650 50 
-F8 "Col3" I R 5700 3750 50 
-F9 "Col4" I R 5700 3850 50 
-F10 "Col5" I R 5700 3950 50 
-F11 "Col6" I R 5700 4050 50 
-F12 "usb_D-" I L 4400 3150 50 
-F13 "usb_D+" I L 4400 3050 50 
-F14 "Vcc" I L 4400 2650 50 
-F15 "GND" I L 4400 5250 50 
-F16 "DoutLed" O R 5700 5000 50 
-F17 "SCL" I L 4400 4700 50 
-F18 "SDA" I L 4400 4800 50 
-$EndSheet
 $Comp
 L power:VCC #PWR03
 U 1 1 601B611E
@@ -75,7 +52,7 @@ F 3 "" H 3950 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3300 3250 3950 3250
+	3300 3250 3400 3250
 Wire Wire Line
 	3950 3350 3950 3250
 Wire Wire Line
@@ -180,7 +157,7 @@ U 1 1 602DB054
 P 3200 4800
 F 0 "J2" H 3257 5267 50  0000 C CNN
 F 1 "4P4C" H 3257 5176 50  0000 C CNN
-F 2 "my_connectors:glx-n-44_reverseble" V 3200 4850 50  0001 C CNN
+F 2 "TB_connectors:glx-n-44_reverseble" V 3200 4850 50  0001 C CNN
 F 3 "~" V 3200 4850 50  0001 C CNN
 	1    3200 4800
 	1    0    0    -1  
@@ -243,4 +220,132 @@ Wire Wire Line
 Wire Wire Line
 	3450 2850 3450 2750
 Connection ~ 3450 2750
+Wire Wire Line
+	3800 3250 3950 3250
+Wire Wire Line
+	3400 3250 3400 3800
+Connection ~ 3400 3250
+Wire Wire Line
+	3400 3250 3500 3250
+$Sheet
+S 4400 2450 1300 3000
+U 6012B71A
+F0 "mcu" 50
+F1 "mcu.sch" 50
+F2 "Row1" I R 5700 2750 50 
+F3 "Row2" I R 5700 2850 50 
+F4 "Row3" I R 5700 2950 50 
+F5 "Row4" I R 5700 3050 50 
+F6 "Col1" I R 5700 3550 50 
+F7 "Col2" I R 5700 3650 50 
+F8 "Col3" I R 5700 3750 50 
+F9 "Col4" I R 5700 3850 50 
+F10 "Col5" I R 5700 3950 50 
+F11 "Col6" I R 5700 4050 50 
+F12 "usb_D-" I L 4400 3150 50 
+F13 "usb_D+" I L 4400 3050 50 
+F14 "Vcc" I L 4400 2650 50 
+F15 "GND" I L 4400 5250 50 
+F16 "DoutLed" O R 5700 5000 50 
+F17 "SCL" I L 4400 4700 50 
+F18 "SDA" I L 4400 4800 50 
+F19 "Vbus" I L 4400 3800 50 
+$EndSheet
+Wire Wire Line
+	3400 3800 4400 3800
+$Comp
+L Diode:1N4148W D14
+U 1 1 61967A26
+P 3650 3250
+F 0 "D14" H 3650 3033 50  0000 C CNN
+F 1 "1N4148W" H 3650 3124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 3650 3075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 3250 50  0001 C CNN
+	1    3650 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61935412
+P 1050 7350
+F 0 "H3" H 1150 7396 50  0000 L CNN
+F 1 "MountingHole" H 1150 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1050 7350 50  0001 C CNN
+F 3 "~" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 619361F9
+P 1050 7150
+F 0 "H2" H 1150 7196 50  0000 L CNN
+F 1 "MountingHole" H 1150 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1050 7150 50  0001 C CNN
+F 3 "~" H 1050 7150 50  0001 C CNN
+	1    1050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61936401
+P 1050 6950
+F 0 "H1" H 1150 6996 50  0000 L CNN
+F 1 "MountingHole" H 1150 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 1050 6950 50  0001 C CNN
+F 3 "~" H 1050 6950 50  0001 C CNN
+	1    1050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP1
+U 1 1 61949AE4
+P 3450 1900
+F 0 "TP1" H 3710 1994 50  0000 L CNN
+F 1 "TestPoint_Flag" H 3710 1903 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3650 1900 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1900 3450 2150
+Connection ~ 3450 2150
+$Comp
+L Connector:TestPoint_Flag TP2
+U 1 1 619566ED
+P 3450 1500
+F 0 "TP2" H 3710 1594 50  0000 L CNN
+F 1 "TestPoint_Flag" H 3710 1503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3650 1500 50  0001 C CNN
+F 3 "~" H 3650 1500 50  0001 C CNN
+	1    3450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR038
+U 1 1 6195A3EA
+P 3300 1300
+F 0 "#PWR038" H 3300 1150 50  0001 C CNN
+F 1 "VCC" V 3317 1428 50  0000 L CNN
+F 2 "" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1500 3300 1500
+Wire Wire Line
+	3300 1500 3300 1300
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J5
+U 1 1 61959045
+P 1900 4850
+F 0 "J5" H 2007 5717 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2007 5626 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2050 4850 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 4850 50  0001 C CNN
+	1    1900 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

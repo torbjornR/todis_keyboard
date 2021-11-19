@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -110,115 +110,6 @@ F 3 "" H 2350 2050 50  0001 C CNN
 	1    2350 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 601586F9
-P 2350 1650
-AR Path="/601586F9" Ref="C?"  Part="1" 
-AR Path="/6012B71A/601586F9" Ref="C3"  Part="1" 
-F 0 "C3" H 2465 1696 50  0000 L CNN
-F 1 "0.1u" H 2465 1605 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 2388 1500 50  0001 C CNN
-F 3 "~" H 2350 1650 50  0001 C CNN
-	1    2350 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 601586FF
-P 2650 1650
-AR Path="/601586FF" Ref="C?"  Part="1" 
-AR Path="/6012B71A/601586FF" Ref="C4"  Part="1" 
-F 0 "C4" H 2765 1696 50  0000 L CNN
-F 1 "0.1u" H 2765 1605 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 2688 1500 50  0001 C CNN
-F 3 "~" H 2650 1650 50  0001 C CNN
-	1    2650 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60158705
-P 2950 1650
-AR Path="/60158705" Ref="C?"  Part="1" 
-AR Path="/6012B71A/60158705" Ref="C5"  Part="1" 
-F 0 "C5" H 3065 1696 50  0000 L CNN
-F 1 "0.1u" H 3065 1605 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 2988 1500 50  0001 C CNN
-F 3 "~" H 2950 1650 50  0001 C CNN
-	1    2950 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6015870B
-P 3250 1650
-AR Path="/6015870B" Ref="C?"  Part="1" 
-AR Path="/6012B71A/6015870B" Ref="C6"  Part="1" 
-F 0 "C6" H 3365 1696 50  0000 L CNN
-F 1 "0.1u" H 3365 1605 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 3288 1500 50  0001 C CNN
-F 3 "~" H 3250 1650 50  0001 C CNN
-	1    3250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60158711
-P 3550 1650
-AR Path="/60158711" Ref="C?"  Part="1" 
-AR Path="/6012B71A/60158711" Ref="C7"  Part="1" 
-F 0 "C7" H 3665 1696 50  0000 L CNN
-F 1 "4.7u" H 3665 1605 50  0000 L CNN
-F 2 "keyboard_parts:C_1608" H 3588 1500 50  0001 C CNN
-F 3 "~" H 3550 1650 50  0001 C CNN
-	1    3550 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1400 3550 1500
-Wire Wire Line
-	3250 1500 3250 1400
-Connection ~ 3250 1400
-Wire Wire Line
-	3250 1400 3550 1400
-Wire Wire Line
-	2950 1500 2950 1400
-Connection ~ 2950 1400
-Wire Wire Line
-	2950 1400 3250 1400
-Wire Wire Line
-	2650 1500 2650 1400
-Wire Wire Line
-	2350 1400 2650 1400
-Connection ~ 2650 1400
-Wire Wire Line
-	2650 1400 2950 1400
-Wire Wire Line
-	2350 1500 2350 1400
-Connection ~ 2350 1400
-Wire Wire Line
-	2350 1800 2350 1900
-Wire Wire Line
-	2350 1900 2650 1900
-Wire Wire Line
-	3550 1900 3550 1800
-Connection ~ 2350 1900
-Wire Wire Line
-	3250 1800 3250 1900
-Connection ~ 3250 1900
-Wire Wire Line
-	3250 1900 3550 1900
-Wire Wire Line
-	2950 1800 2950 1900
-Connection ~ 2950 1900
-Wire Wire Line
-	2950 1900 3250 1900
-Wire Wire Line
-	2650 1800 2650 1900
-Connection ~ 2650 1900
-Wire Wire Line
-	2650 1900 2950 1900
 $Comp
 L Device:R R?
 U 1 1 60158737
@@ -347,44 +238,42 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 60158775
-P 4550 3250
+P 4250 3250
 AR Path="/60158775" Ref="C?"  Part="1" 
 AR Path="/6012B71A/60158775" Ref="C8"  Part="1" 
-F 0 "C8" V 4298 3250 50  0000 C CNN
-F 1 "1u" V 4389 3250 50  0000 C CNN
-F 2 "keyboard_parts:C_1608" H 4588 3100 50  0001 C CNN
-F 3 "~" H 4550 3250 50  0001 C CNN
-	1    4550 3250
+F 0 "C8" V 3998 3250 50  0000 C CNN
+F 1 "1u" V 4089 3250 50  0000 C CNN
+F 2 "keyboard_parts:C_1608" H 4288 3100 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+	1    4250 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6015877B
-P 4300 3300
+P 4000 3300
 AR Path="/6015877B" Ref="#PWR?"  Part="1" 
 AR Path="/6012B71A/6015877B" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 4300 3050 50  0001 C CNN
-F 1 "GND" H 4305 3127 50  0000 C CNN
-F 2 "" H 4300 3300 50  0001 C CNN
-F 3 "" H 4300 3300 50  0001 C CNN
-	1    4300 3300
+F 0 "#PWR017" H 4000 3050 50  0001 C CNN
+F 1 "GND" H 4005 3127 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 3150 4300 3150
+	4850 3150 4000 3150
 Wire Wire Line
-	4300 3150 4300 3250
+	4000 3150 4000 3250
 Wire Wire Line
-	4300 3250 4400 3250
+	4000 3250 4100 3250
 Wire Wire Line
-	4700 3250 4850 3250
-Connection ~ 4300 3250
+	4400 3250 4850 3250
+Connection ~ 4000 3250
 Wire Wire Line
 	3000 3950 3000 3850
 Wire Wire Line
-	4300 3250 4300 3300
-Wire Wire Line
-	7000 3050 7200 3050
+	4000 3250 4000 3300
 Wire Wire Line
 	7200 3350 7000 3350
 Wire Wire Line
@@ -519,7 +408,7 @@ Wire Wire Line
 	7000 3150 7200 3150
 Wire Wire Line
 	7100 2850 7000 2850
-Text HLabel 7200 3050 2    50   Input ~ 0
+Text HLabel 7200 3550 2    50   Input ~ 0
 Row1
 Text HLabel 7200 3150 2    50   Input ~ 0
 Row2
@@ -583,30 +472,21 @@ Wire Wire Line
 	1150 1550 1150 1600
 Wire Wire Line
 	4750 4850 4850 4850
-Text HLabel 3550 4450 0    50   Input ~ 0
+Text HLabel 2200 5600 1    50   Input ~ 0
 SCL
-Text HLabel 3550 4550 0    50   Input ~ 0
-SDA
-Wire Wire Line
-	3550 4550 3850 4550
-Wire Wire Line
-	4850 4450 4050 4450
 $Comp
 L power:VCC #PWR?
 U 1 1 60310AF0
-P 3050 4750
+P 1450 5550
 AR Path="/60310AF0" Ref="#PWR?"  Part="1" 
 AR Path="/6012B71A/60310AF0" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 3050 4600 50  0001 C CNN
-F 1 "VCC" H 3067 4923 50  0000 C CNN
-F 2 "" H 3050 4750 50  0001 C CNN
-F 3 "" H 3050 4750 50  0001 C CNN
-	1    3050 4750
+F 0 "#PWR016" H 1450 5400 50  0001 C CNN
+F 1 "VCC" H 1467 5723 50  0000 C CNN
+F 2 "" H 1450 5550 50  0001 C CNN
+F 3 "" H 1450 5550 50  0001 C CNN
+	1    1450 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 5200 4050 4450
-Connection ~ 4050 4450
 $Comp
 L my_connectors:TC2030-IDC_FB J3
 U 1 1 60149050
@@ -618,43 +498,39 @@ F 3 "" H 4100 5750 50  0001 C CNN
 	1    4350 6550
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 4900
+Connection ~ 1450 5700
 Wire Wire Line
-	3050 4900 3050 5200
+	1450 5700 1450 6000
 Wire Wire Line
-	3050 4750 3050 4900
+	1450 5550 1450 5700
 Wire Wire Line
 	1950 4250 4850 4250
 Wire Wire Line
 	4850 3950 3800 3950
 Wire Wire Line
-	3550 5200 4050 5200
+	1650 5700 1450 5700
 Wire Wire Line
-	3550 4900 3850 4900
-Wire Wire Line
-	3250 4900 3050 4900
-Wire Wire Line
-	3050 5200 3250 5200
+	1450 6000 1650 6000
 $Comp
 L Device:R R5
 U 1 1 6030F266
-P 3400 5200
-F 0 "R5" V 3193 5200 50  0000 C CNN
-F 1 "2k2" V 3284 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 5200 50  0001 C CNN
-F 3 "~" H 3400 5200 50  0001 C CNN
-	1    3400 5200
+P 1800 6000
+F 0 "R5" V 1593 6000 50  0000 C CNN
+F 1 "2k2" V 1684 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1730 6000 50  0001 C CNN
+F 3 "~" H 1800 6000 50  0001 C CNN
+	1    1800 6000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 6030E852
-P 3400 4900
-F 0 "R4" V 3193 4900 50  0000 C CNN
-F 1 "2k2" V 3284 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 4900 50  0001 C CNN
-F 3 "~" H 3400 4900 50  0001 C CNN
-	1    3400 4900
+P 1800 5700
+F 0 "R4" V 1593 5700 50  0000 C CNN
+F 1 "2k2" V 1684 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1730 5700 50  0001 C CNN
+F 3 "~" H 1800 5700 50  0001 C CNN
+	1    1800 5700
 	0    1    1    0   
 $EndComp
 Text HLabel 4750 4850 0    50   Output ~ 0
@@ -790,13 +666,6 @@ Wire Wire Line
 	3950 6550 4050 6550
 Wire Wire Line
 	4050 6700 3950 6700
-Wire Wire Line
-	3550 4450 4050 4450
-Wire Wire Line
-	3850 4900 3850 4550
-Connection ~ 3850 4550
-Wire Wire Line
-	3850 4550 4850 4550
 $Comp
 L maint_board-rescue:ATMEGA32U4-keyboard_parts-maint_board-rescue U1
 U 1 1 601CBA26
@@ -1081,4 +950,254 @@ Wire Wire Line
 Connection ~ 3800 3950
 Wire Wire Line
 	3800 3950 3000 3950
+Wire Wire Line
+	4600 3350 4850 3350
+Text HLabel 4600 3350 0    50   Input ~ 0
+Vbus
+Connection ~ 2650 1900
+Connection ~ 2950 1900
+Wire Wire Line
+	2950 1900 3250 1900
+Wire Wire Line
+	3250 1900 3550 1900
+Connection ~ 3250 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	2650 1900 2950 1900
+Wire Wire Line
+	2350 1900 2650 1900
+Connection ~ 2350 1400
+Connection ~ 2650 1400
+Wire Wire Line
+	2650 1400 2950 1400
+Wire Wire Line
+	2350 1400 2650 1400
+Connection ~ 2950 1400
+Wire Wire Line
+	2950 1400 3250 1400
+Wire Wire Line
+	3250 1400 3550 1400
+Connection ~ 3250 1400
+Wire Wire Line
+	2650 1800 2650 1900
+Wire Wire Line
+	2950 1800 2950 1900
+Wire Wire Line
+	3250 1800 3250 1900
+Wire Wire Line
+	3550 1900 3550 1800
+Wire Wire Line
+	2350 1800 2350 1900
+Wire Wire Line
+	2350 1500 2350 1400
+Wire Wire Line
+	2650 1500 2650 1400
+Wire Wire Line
+	2950 1500 2950 1400
+Wire Wire Line
+	3250 1500 3250 1400
+Wire Wire Line
+	3550 1400 3550 1500
+$Comp
+L Device:C C?
+U 1 1 60158711
+P 3550 1650
+AR Path="/60158711" Ref="C?"  Part="1" 
+AR Path="/6012B71A/60158711" Ref="C7"  Part="1" 
+F 0 "C7" H 3665 1696 50  0000 L CNN
+F 1 "4.7u" H 3665 1605 50  0000 L CNN
+F 2 "keyboard_parts:C_1608" H 3588 1500 50  0001 C CNN
+F 3 "~" H 3550 1650 50  0001 C CNN
+	1    3550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6015870B
+P 3250 1650
+AR Path="/6015870B" Ref="C?"  Part="1" 
+AR Path="/6012B71A/6015870B" Ref="C6"  Part="1" 
+F 0 "C6" H 3365 1696 50  0000 L CNN
+F 1 "0.1u" H 3365 1605 50  0000 L CNN
+F 2 "keyboard_parts:C_1608" H 3288 1500 50  0001 C CNN
+F 3 "~" H 3250 1650 50  0001 C CNN
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60158705
+P 2950 1650
+AR Path="/60158705" Ref="C?"  Part="1" 
+AR Path="/6012B71A/60158705" Ref="C5"  Part="1" 
+F 0 "C5" H 3065 1696 50  0000 L CNN
+F 1 "0.1u" H 3065 1605 50  0000 L CNN
+F 2 "keyboard_parts:C_1608" H 2988 1500 50  0001 C CNN
+F 3 "~" H 2950 1650 50  0001 C CNN
+	1    2950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601586FF
+P 2650 1650
+AR Path="/601586FF" Ref="C?"  Part="1" 
+AR Path="/6012B71A/601586FF" Ref="C4"  Part="1" 
+F 0 "C4" H 2765 1696 50  0000 L CNN
+F 1 "0.1u" H 2765 1605 50  0000 L CNN
+F 2 "keyboard_parts:C_1608" H 2688 1500 50  0001 C CNN
+F 3 "~" H 2650 1650 50  0001 C CNN
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601586F9
+P 2350 1650
+AR Path="/601586F9" Ref="C?"  Part="1" 
+AR Path="/6012B71A/601586F9" Ref="C3"  Part="1" 
+F 0 "C3" H 2465 1696 50  0000 L CNN
+F 1 "0.1u" H 2465 1605 50  0000 L CNN
+F 2 "keyboard_parts:C_1608" H 2388 1500 50  0001 C CNN
+F 3 "~" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3550 7200 3550
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 6196D3D6
+P 2850 6250
+F 0 "JP3" V 2850 6318 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 2895 6318 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2850 6250 50  0001 C CNN
+F 3 "~" H 2850 6250 50  0001 C CNN
+	1    2850 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 6196E22C
+P 2500 6250
+F 0 "JP2" V 2500 6318 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 2545 6318 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2500 6250 50  0001 C CNN
+F 3 "~" H 2500 6250 50  0001 C CNN
+	1    2500 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 6196E844
+P 2200 6250
+F 0 "JP1" V 2246 6162 50  0000 R CNN
+F 1 "SolderJumper_2_Open" V 2350 7300 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2200 6250 50  0001 C CNN
+F 3 "~" H 2200 6250 50  0001 C CNN
+	1    2200 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 6196F9E7
+P 1450 6850
+F 0 "J4" H 1368 6425 50  0000 C CNN
+F 1 "Conn_01x04" H 1368 6516 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 1450 6850 50  0001 C CNN
+F 3 "~" H 1450 6850 50  0001 C CNN
+	1    1450 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 5600 2200 6000
+Wire Wire Line
+	2500 5600 2500 5700
+Wire Wire Line
+	2850 6100 2850 6000
+Wire Wire Line
+	2850 6000 2500 6000
+Connection ~ 2500 6000
+Wire Wire Line
+	2500 6000 2500 6100
+Wire Wire Line
+	2200 6400 2200 6750
+Wire Wire Line
+	2500 6400 2500 6850
+Wire Wire Line
+	2500 6850 1650 6850
+$Comp
+L power:GND #PWR?
+U 1 1 619BFF45
+P 1850 7000
+AR Path="/619BFF45" Ref="#PWR?"  Part="1" 
+AR Path="/6012B71A/619BFF45" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 1850 6750 50  0001 C CNN
+F 1 "GND" H 1855 6827 50  0000 C CNN
+F 2 "" H 1850 7000 50  0001 C CNN
+F 3 "" H 1850 7000 50  0001 C CNN
+	1    1850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 619C80EC
+P 1850 6450
+AR Path="/619C80EC" Ref="#PWR?"  Part="1" 
+AR Path="/6012B71A/619C80EC" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 1850 6300 50  0001 C CNN
+F 1 "VCC" V 1850 6650 50  0000 C CNN
+F 2 "" H 1850 6450 50  0001 C CNN
+F 3 "" H 1850 6450 50  0001 C CNN
+	1    1850 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6650 1850 6650
+Wire Wire Line
+	1850 6650 1850 6450
+Wire Wire Line
+	1650 6950 1850 6950
+Wire Wire Line
+	1850 6950 1850 7000
+Text GLabel 2850 6950 3    50   Input ~ 0
+serial
+Text GLabel 2500 6950 3    50   Input ~ 0
+i2c_sda
+Text GLabel 2200 6950 3    50   Input ~ 0
+i2c_scl
+Wire Wire Line
+	2850 6950 2850 6400
+Wire Wire Line
+	2500 6950 2500 6850
+Connection ~ 2500 6850
+Wire Wire Line
+	2200 6950 2200 6750
+Connection ~ 2200 6750
+Wire Wire Line
+	1650 6750 2200 6750
+Text GLabel 3550 4450 0    50   Input ~ 0
+i2c_scl
+Text GLabel 3550 4550 0    50   Input ~ 0
+i2c_sda
+Text GLabel 4450 4650 0    50   Input ~ 0
+serial
+Wire Wire Line
+	4450 4650 4850 4650
+Text HLabel 2500 5600 1    50   Input ~ 0
+SDA
+Wire Wire Line
+	3550 4550 4850 4550
+Wire Wire Line
+	3550 4450 4850 4450
+Wire Wire Line
+	1950 5700 2500 5700
+Connection ~ 2500 5700
+Wire Wire Line
+	2500 5700 2500 6000
+Wire Wire Line
+	1950 6000 2200 6000
+Connection ~ 2200 6000
+Wire Wire Line
+	2200 6000 2200 6100
 $EndSCHEMATC
