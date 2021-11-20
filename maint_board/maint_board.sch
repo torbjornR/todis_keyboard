@@ -32,32 +32,25 @@ $EndSheet
 $Comp
 L power:GND #PWR013
 U 1 1 6050A70E
-P 3000 2250
-F 0 "#PWR013" H 3000 2000 50  0001 C CNN
-F 1 "GND" V 3005 2122 50  0000 R CNN
-F 2 "" H 3000 2250 50  0001 C CNN
-F 3 "" H 3000 2250 50  0001 C CNN
-	1    3000 2250
+P 1850 4450
+F 0 "#PWR013" H 1850 4200 50  0001 C CNN
+F 1 "GND" V 1855 4322 50  0000 R CNN
+F 2 "" H 1850 4450 50  0001 C CNN
+F 3 "" H 1850 4450 50  0001 C CNN
+	1    1850 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR03
 U 1 1 601B611E
-P 3950 3350
-F 0 "#PWR03" H 3950 3200 50  0001 C CNN
-F 1 "VCC" V 3967 3478 50  0000 L CNN
-F 2 "" H 3950 3350 50  0001 C CNN
-F 3 "" H 3950 3350 50  0001 C CNN
-	1    3950 3350
-	-1   0    0    1   
+P 3650 2300
+F 0 "#PWR03" H 3650 2150 50  0001 C CNN
+F 1 "VCC" V 3667 2428 50  0000 L CNN
+F 2 "" H 3650 2300 50  0001 C CNN
+F 3 "" H 3650 2300 50  0001 C CNN
+	1    3650 2300
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 3250 3400 3250
-Wire Wire Line
-	3950 3350 3950 3250
-Wire Wire Line
-	3300 2750 3450 2750
-NoConn ~ 3300 2950
 Wire Wire Line
 	6050 2750 5700 2750
 Wire Wire Line
@@ -87,10 +80,6 @@ F2 "Vcc" I R 7350 4800 50
 F3 "GND" I R 7350 5250 50 
 F4 "Din" I L 6050 5000 50 
 $EndSheet
-Wire Wire Line
-	3300 3050 4400 3050
-Wire Wire Line
-	4400 3150 3300 3150
 $Comp
 L power:VCC #PWR06
 U 1 1 602BFC15
@@ -198,35 +187,8 @@ Wire Wire Line
 	4400 4800 3600 4800
 Wire Wire Line
 	5700 5000 6050 5000
-$Comp
-L maint_board-rescue:USB_mini_micro_B-keyboard_parts-maint_board-rescue J1
-U 1 1 601E1AA5
-P 3150 3100
-F 0 "J1" H 3037 3391 60  0000 C CNN
-F 1 "USB_mini_micro_B" H 3000 3350 60  0001 C CNN
-F 2 "TB_connectors:usb_minib_wm5462ct-nd" H 3100 3100 60  0001 C CNN
-F 3 "" H 3100 3100 60  0000 C CNN
-	1    3150 3100
-	1    0    0    1   
-$EndComp
 Wire Wire Line
-	3450 2750 3450 2150
-Wire Wire Line
-	3450 2150 3000 2150
-Wire Wire Line
-	3000 2150 3000 2250
-Wire Wire Line
-	3300 2850 3450 2850
-Wire Wire Line
-	3450 2850 3450 2750
-Connection ~ 3450 2750
-Wire Wire Line
-	3800 3250 3950 3250
-Wire Wire Line
-	3400 3250 3400 3800
-Connection ~ 3400 3250
-Wire Wire Line
-	3400 3250 3500 3250
+	3500 2450 3650 2450
 $Sheet
 S 4400 2450 1300 3000
 U 6012B71A
@@ -242,8 +204,8 @@ F8 "Col3" I R 5700 3750 50
 F9 "Col4" I R 5700 3850 50 
 F10 "Col5" I R 5700 3950 50 
 F11 "Col6" I R 5700 4050 50 
-F12 "usb_D-" I L 4400 3150 50 
-F13 "usb_D+" I L 4400 3050 50 
+F12 "usb_D-" I L 4400 3050 50 
+F13 "usb_D+" I L 4400 3150 50 
 F14 "Vcc" I L 4400 2650 50 
 F15 "GND" I L 4400 5250 50 
 F16 "DoutLed" O R 5700 5000 50 
@@ -252,16 +214,16 @@ F18 "SDA" I L 4400 4800 50
 F19 "Vbus" I L 4400 3800 50 
 $EndSheet
 Wire Wire Line
-	3400 3800 4400 3800
+	4200 3800 4400 3800
 $Comp
 L Diode:1N4148W D14
 U 1 1 61967A26
-P 3650 3250
-F 0 "D14" H 3650 3033 50  0000 C CNN
-F 1 "1N4148W" H 3650 3124 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 3650 3075 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3650 3250 50  0001 C CNN
-	1    3650 3250
+P 3350 2450
+F 0 "D14" H 3350 2550 50  0000 C CNN
+F 1 "1N4148W" H 3350 2700 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 3350 2275 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3350 2450 50  0001 C CNN
+	1    3350 2450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -300,52 +262,180 @@ $EndComp
 $Comp
 L Connector:TestPoint_Flag TP1
 U 1 1 61949AE4
-P 3450 1900
-F 0 "TP1" H 3710 1994 50  0000 L CNN
-F 1 "TestPoint_Flag" H 3710 1903 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3650 1900 50  0001 C CNN
-F 3 "~" H 3650 1900 50  0001 C CNN
-	1    3450 1900
+P 2700 6800
+F 0 "TP1" H 2960 6894 50  0000 L CNN
+F 1 "TestPoint_Flag" H 2960 6803 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2900 6800 50  0001 C CNN
+F 3 "~" H 2900 6800 50  0001 C CNN
+	1    2700 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 1900 3450 2150
-Connection ~ 3450 2150
 $Comp
 L Connector:TestPoint_Flag TP2
 U 1 1 619566ED
-P 3450 1500
-F 0 "TP2" H 3710 1594 50  0000 L CNN
-F 1 "TestPoint_Flag" H 3710 1503 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3650 1500 50  0001 C CNN
-F 3 "~" H 3650 1500 50  0001 C CNN
-	1    3450 1500
+P 2700 6500
+F 0 "TP2" H 2960 6594 50  0000 L CNN
+F 1 "TestPoint_Flag" H 2960 6503 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2900 6500 50  0001 C CNN
+F 3 "~" H 2900 6500 50  0001 C CNN
+	1    2700 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR038
 U 1 1 6195A3EA
-P 3300 1300
-F 0 "#PWR038" H 3300 1150 50  0001 C CNN
-F 1 "VCC" V 3317 1428 50  0000 L CNN
-F 2 "" H 3300 1300 50  0001 C CNN
-F 3 "" H 3300 1300 50  0001 C CNN
-	1    3300 1300
+P 2550 6300
+F 0 "#PWR038" H 2550 6150 50  0001 C CNN
+F 1 "VCC" V 2567 6428 50  0000 L CNN
+F 2 "" H 2550 6300 50  0001 C CNN
+F 3 "" H 2550 6300 50  0001 C CNN
+	1    2550 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1500 3300 1500
+	2700 6500 2550 6500
 Wire Wire Line
-	3300 1500 3300 1300
+	2550 6500 2550 6300
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J5
 U 1 1 61959045
-P 1900 4850
-F 0 "J5" H 2007 5717 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 2007 5626 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2050 4850 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 4850 50  0001 C CNN
-	1    1900 4850
+P 1850 3050
+F 0 "J5" H 1957 3917 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1957 3826 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2000 3050 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2000 3050 50  0001 C CNN
+	1    1850 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 3150 3400 3150
+Wire Wire Line
+	2450 3250 3400 3250
+Wire Wire Line
+	3400 3250 3400 3150
+Connection ~ 3400 3150
+Wire Wire Line
+	3400 3150 4400 3150
+Wire Wire Line
+	2450 3050 3400 3050
+Wire Wire Line
+	2450 2950 3400 2950
+Wire Wire Line
+	3400 2950 3400 3050
+Connection ~ 3400 3050
+Wire Wire Line
+	3400 3050 4400 3050
+Wire Wire Line
+	3650 2300 3650 2450
+Text GLabel 3300 2000 2    50   Input ~ 0
+vbus
+Text GLabel 4200 3800 0    50   Input ~ 0
+vbus
+Wire Wire Line
+	3300 2000 3150 2000
+Wire Wire Line
+	3150 2000 3150 2450
+Wire Wire Line
+	2450 2450 3150 2450
+Connection ~ 3150 2450
+Wire Wire Line
+	3150 2450 3200 2450
+$Comp
+L power:GND #PWR041
+U 1 1 619CC8E8
+P 2550 7050
+F 0 "#PWR041" H 2550 6800 50  0001 C CNN
+F 1 "GND" V 2555 6922 50  0000 R CNN
+F 2 "" H 2550 7050 50  0001 C CNN
+F 3 "" H 2550 7050 50  0001 C CNN
+	1    2550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 7050 2550 6800
+Wire Wire Line
+	2700 6800 2550 6800
+Wire Wire Line
+	1850 3950 1850 4050
+$Comp
+L Device:R R11
+U 1 1 619DA61B
+P 2700 2750
+F 0 "R11" V 2800 2750 50  0000 C CNN
+F 1 "5k1" V 2584 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 619DB999
+P 3000 2650
+F 0 "R12" V 3150 2650 50  0000 C CNN
+F 1 "5k1" V 2884 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 2650 50  0001 C CNN
+F 3 "~" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 2650 2850 2650
+Wire Wire Line
+	2450 2750 2550 2750
+$Comp
+L power:GND #PWR042
+U 1 1 619E77AB
+P 3400 2700
+F 0 "#PWR042" H 3400 2450 50  0001 C CNN
+F 1 "GND" V 3405 2572 50  0000 R CNN
+F 2 "" H 3400 2700 50  0001 C CNN
+F 3 "" H 3400 2700 50  0001 C CNN
+	1    3400 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2650 3250 2650
+Wire Wire Line
+	3250 2650 3250 2700
+Wire Wire Line
+	2850 2750 3250 2750
+Wire Wire Line
+	3400 2700 3250 2700
+Connection ~ 3250 2700
+Wire Wire Line
+	3250 2700 3250 2750
+$Comp
+L Device:R R13
+U 1 1 619ED292
+P 1700 4300
+F 0 "R13" V 1800 4300 50  0000 C CNN
+F 1 "1M" V 1900 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 4300 50  0001 C CNN
+F 3 "~" H 1700 4300 50  0001 C CNN
+	1    1700 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 619ED8D8
+P 1700 4050
+F 0 "C13" V 1448 4050 50  0000 C CNN
+F 1 "4n7" V 1539 4050 50  0000 C CNN
+F 2 "keyboard_parts:C_1608" H 1738 3900 50  0001 C CNN
+F 3 "~" H 1700 4050 50  0001 C CNN
+	1    1700 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 1850 4050
+Wire Wire Line
+	1850 4050 1850 4300
+Connection ~ 1850 4300
+Wire Wire Line
+	1850 4300 1850 4450
+Wire Wire Line
+	1550 3950 1550 4050
+Connection ~ 1550 4050
+Wire Wire Line
+	1550 4050 1550 4300
 $EndSCHEMATC

@@ -432,24 +432,6 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# maint_board-rescue_USB_mini_micro_B-keyboard_parts-maint_board-rescue
-#
-DEF maint_board-rescue_USB_mini_micro_B-keyboard_parts-maint_board-rescue J 0 40 Y Y 1 F N
-F0 "J" -400 -50 60 H V C CNN
-F1 "maint_board-rescue_USB_mini_micro_B-keyboard_parts-maint_board-rescue" -150 250 60 H I C CNN
-F2 "" -50 0 60 H V C CNN
-F3 "" -50 0 60 H V C CNN
-DRAW
-S -350 200 -50 -400 0 1 0 N
-X VUSB 1 150 150 200 L 50 50 1 1 w
-X D- 2 150 50 200 L 50 50 1 1 B
-X D+ 3 150 -50 200 L 50 50 1 1 B
-X ID 4 150 -150 200 L 50 50 1 1 I
-X GND 5 150 -250 200 L 50 50 1 1 w
-X SHIELD 6 150 -350 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # maint_board-rescue_XTAL_GND-keyboard_parts-maint_board-rescue
 #
 DEF maint_board-rescue_XTAL_GND-keyboard_parts-maint_board-rescue X 0 40 N N 1 F N
