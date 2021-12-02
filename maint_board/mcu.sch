@@ -949,7 +949,7 @@ Wire Wire Line
 	3800 3800 3800 3950
 Connection ~ 3800 3950
 Wire Wire Line
-	3800 3950 3000 3950
+	3800 3950 3550 3950
 Wire Wire Line
 	4600 3350 4850 3350
 Text HLabel 4600 3350 0    50   Input ~ 0
@@ -1230,4 +1230,17 @@ Wire Wire Line
 	650  3600 650  2950
 Wire Wire Line
 	650  2650 650  2350
+$Comp
+L Device:R R14
+U 1 1 61A206B7
+P 3400 3950
+F 0 "R14" V 3193 3950 50  0000 C CNN
+F 1 "330" V 3284 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 3950 50  0001 C CNN
+F 3 "~" H 3400 3950 50  0001 C CNN
+	1    3400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3950 3000 3950
 $EndSCHEMATC
