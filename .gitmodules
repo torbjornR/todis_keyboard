@@ -7,3 +7,9 @@
 [submodule "libs/keyboard_parts.pretty"]
 	path = libs/keyboard_parts.pretty
 	url = git@github.com:tmk/keyboard_parts.pretty.git
+[submodule "firmware/submodules/toddis_keyboard_single"]
+	path = firmware/submodules/toddis_keyboard_single
+	url = git@github.com:torbjornR/toddis_keyboard_single.git
+[submodule "firmware/submodules/toddis_keyboard_split"]
+	path = firmware/submodules/toddis_keyboard_split
+	url = git@github.com:torbjornR/toddis_keyboard_split.git
